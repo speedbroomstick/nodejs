@@ -1,6 +1,6 @@
 const express = require('express');
 const path = require('path');
-const posts = require('./posts');
+const posts = require('./postsEnglish');
 
 const app = express();
 const PORT = 3000;
