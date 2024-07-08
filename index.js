@@ -5,9 +5,15 @@ const postsEnglish = require('./postsEnglish');
 const postsRussian = require('./postsRussian');
 
 const app = express();
-const PORT = 3001;
+const PORT = 3000;
 
-app.use(cors());
+// Configure CORS to allow requests from your frontend application
+const corsOptions = {
+  origin: 'http://localhost:3000',
+  optionsSuccessStatus: 200,
+};
+
+app.use(cors(corsOptions));
 
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
 
