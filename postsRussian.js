@@ -1,4 +1,4 @@
-const englishPosts = [
+const russionPosts = [
 	{
 		id: 1,
 		category: 'Startup',
@@ -700,4 +700,4 @@ const englishPosts = [
 		],
 	},
 ];
-module.exports = englishPosts;
+module.exports = russionPosts;
