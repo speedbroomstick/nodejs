@@ -29,9 +29,10 @@ app.get('/posts', (req, res) => {
     ? posts.filter(post => post.categoryImage === category)
     : posts;
 
+  const totalCount = filteredPosts.length;
   const slicedPosts = filteredPosts.slice(start, start + limit);
 
-  res.status(200).json(slicedPosts);
+  res.status(200).json({ posts: slicedPosts, totalCount });
 });
 
 app.use((req, res) => {
