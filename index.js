@@ -21,9 +21,15 @@ app.get('/posts', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
   const limit = parseInt(req.query.limit, 10) || 4;
   const start = parseInt(req.query.start, 10) || 0;
+  const category = req.query.category || '';
 
   const posts = lang.includes('ru') ? postsRussian : postsEnglish;
-  const slicedPosts = posts.slice(start, start + limit);
+
+  const filteredPosts = category
+    ? posts.filter(post => post.categoryImage === category)
+    : posts;
+
+  const slicedPosts = filteredPosts.slice(start, start + limit);
 
   res.status(200).json(slicedPosts);
 });
