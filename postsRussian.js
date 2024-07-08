@@ -9,6 +9,7 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
 		date: '27 Января 2022',
+		tags: ['Experience', 'Life', 'Screen'],
 		author: 'Андрю Джонс',
 		content: [
 			{
@@ -43,6 +44,7 @@ const russionPosts = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
 		date: '28 Января 2022',
+		tags: ['Business', 'Life'],
 		author: 'Сара Лии',
 		content: [
 			{
@@ -76,6 +78,7 @@ const russionPosts = [
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Technology',
+		tags: ['Technology', 'Experience', 'Life'],
 		date: '29 Января 2022',
 		author: 'Михаил Смитс',
 		content: [
@@ -111,6 +114,7 @@ const russionPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '30 Января 2022',
+		tags: ['Marketing', 'Life'],
 		author: 'Эмили Дэвис',
 		content: [
 			{
@@ -145,6 +149,7 @@ const russionPosts = [
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 		icon: '/images/avatar2.png',
 		date: '31 Января 2022',
+		tags: ['Life'],
 		author: 'давид Вилсон',
 		content: [
 			{
@@ -179,6 +184,7 @@ const russionPosts = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
+		tags: ['Business', 'Screen'],
 		author: 'София Маритз',
 		content: [
 			{
@@ -213,6 +219,7 @@ const russionPosts = [
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 		icon: '/images/avatar2.png',
 		date: '2 Февраля 2022',
+		tags: ['Technology', 'Screen'],
 		author: 'Джеймс Браун',
 		content: [
 			{
@@ -243,6 +250,7 @@ const russionPosts = [
 		header: 'Роль криптовалюты в современной экономике',
 		image: "/images/secondBlog.png",
 		categoryImage: 'Economy',
+		tags: ['Marketing'],
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
@@ -280,6 +288,7 @@ const russionPosts = [
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 		icon: '/images/avatar2.png',
 		date: '4 Февраля 2022',
+		tags: ['Life'],
 		categoryImage: 'Startup',
 		author: 'Лиам Андерс',
 		content: [
@@ -314,6 +323,7 @@ const russionPosts = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
 		date: '5 Февраля 2022',
+		tags: ['Business', 'Life'],
 		categoryImage: 'Business',
 		author: 'Эмма Томас',
 		content: [
@@ -349,6 +359,7 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		categoryImage: 'Technology',
 		date: '6 Февраля 2022',
+		tags: ['Technology', 'Experience', 'Life'],
 		author: 'Массон Вайт',
 		content: [
 			{
@@ -383,6 +394,7 @@ const russionPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '7 Февраля 2022',
+		tags: ['Marketing', 'Experience', 'Life'],
 		author: 'Изабела Карис',
 		content: [
 			{
@@ -417,6 +429,7 @@ const russionPosts = [
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 		icon: '/images/avatar2.png',
 		date: '8 Февраля 2022',
+		tags: ['Experience', 'Life'],
 		author: 'Этлан Кларк',
 		content: [
 			{
@@ -451,6 +464,7 @@ const russionPosts = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
 		date: '9 Февраля 2022',
+		tags: ['Experience', 'Business'],
 		author: 'Ава Лювис',
 		content: [
 			{
@@ -485,6 +499,7 @@ const russionPosts = [
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 		icon: '/images/avatar2.png',
 		date: '10 Февраля 2022',
+		tags: ['Technology', 'Screen'],
 		author: 'Лукас Робинзон',
 		content: [
 			{
@@ -519,6 +534,7 @@ const russionPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '11 Февраля 2022',
+		tags: ['Marketing', 'Life'],
 		author: 'Миа Валкер',
 		content: [
 			{
@@ -553,6 +569,7 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
 		date: '12 Февраля 2022',
+		tags: ['Experience', 'Life'],
 		author: 'Александр Кинг',
 		content: [
 			{
@@ -586,6 +603,7 @@ const russionPosts = [
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
+		tags: ['Experience', 'Technology', 'Life'],
 		date: '13 Февраля 2022',
 		author: 'Амилиа Скотт',
 		content: [
@@ -621,6 +639,7 @@ const russionPosts = [
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 		icon: '/images/avatar2.png',
 		date: '14 Февраля 2022',
+		tags: ['Experience', 'Technology', 'Life'],
 		author: 'Генри Холл',
 		content: [
 			{
@@ -655,6 +674,7 @@ const russionPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '15 Февраля 2022',
+		tags: ['Experience', 'Marketing'],
 		author: 'Шарлота Адамс',
 		content: [
 			{
