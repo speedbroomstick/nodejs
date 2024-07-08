@@ -5,7 +5,7 @@ const russionPosts = [
 		header: 'Design tips for designers that cover everything you need',
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
-		image: '/images/firstBlog.jpg',
+		image: '/images/firstBlog.png',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
 		date: '27th January 2022',
@@ -38,7 +38,7 @@ const russionPosts = [
 		id: 2,
 		category: 'Business',
 		header: 'How to Scale Your Business Quickly and Efficiently',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
@@ -73,7 +73,7 @@ const russionPosts = [
 		id: 3,
 		category: 'Technology',
 		header: 'The Future of Artificial Intelligence in Everyday Life',
-		image: '/images/thirdBlog.jpg', 
+		image: '/images/thirdBlog.png', 
 		categoryImage: 'Technology',
 		description:
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -108,7 +108,7 @@ const russionPosts = [
 		id: 4,
 		category: 'Economy',
 		header: 'Understanding the Global Economic Trends of 2024',
-		image: '/images/fourthBlog.jpg',
+		image: '/images/fourthBlog.png',
 		categoryImage: 'Economy',
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -143,7 +143,7 @@ const russionPosts = [
 		id: 5,
 		category: 'Startup',
 		header: '10 Steps to Launching a Successful Startup',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		categoryImage: 'Startup',
 		description:
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -178,7 +178,7 @@ const russionPosts = [
 		id: 6,
 		category: 'Business',
 		header: 'Effective Marketing Strategies for Small Businesses',
-		image: '/images/thirdBlog.jpg',
+		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -213,7 +213,7 @@ const russionPosts = [
 		id: 7,
 		category: 'Technology',
 		header: 'The Impact of Blockchain on Financial Services',
-		image: '/images/firstBlog.jpg',
+		image: '/images/firstBlog.png',
 		categoryImage: 'Technology',
 		description:
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -248,7 +248,7 @@ const russionPosts = [
 		id: 8,
 		category: 'Economy',
 		header: 'The Role of Cryptocurrency in Modern Economy',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		categoryImage: 'Economy',
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -283,7 +283,7 @@ const russionPosts = [
 		id: 9,
 		category: 'Startup',
 		header: 'Innovative Ideas to Disrupt Traditional Markets',
-		image: '/images/fourthBlog.jpg',
+		image: '/images/fourthBlog.png',
 		categoryImage: 'Startup',
 		description:
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -318,7 +318,7 @@ const russionPosts = [
 		id: 10,
 		category: 'Business',
 		header: 'Leadership Skills Every Entrepreneur Should Develop',
-		image: '/images/thirdBlog.jpg',
+		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -353,7 +353,7 @@ const russionPosts = [
 		id: 11,
 		category: 'Technology',
 		header: 'Advancements in Machine Learning and Data Science',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		categoryImage: 'Technology',
 		description:
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -388,7 +388,7 @@ const russionPosts = [
 		id: 12,
 		category: 'Economy',
 		header: 'Analyzing the Impact of Trade Wars on Global Economy',
-		image: '/images/firstBlog.jpg',
+		image: '/images/firstBlog.png',
 		categoryImage: 'Economy',
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -423,7 +423,7 @@ const russionPosts = [
 		id: 13,
 		category: 'Startup',
 		header: 'How to Secure Funding for Your Startup',
-		image: '/images/thirdBlog.jpg',
+		image: '/images/thirdBlog.png',
 		categoryImage: 'Startup',
 		description:
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
@@ -458,7 +458,7 @@ const russionPosts = [
 		id: 14,
 		category: 'Business',
 		header: 'Creating a Sustainable Business Model',
-		image: '/images/fourthBlog.jpg',
+		image: '/images/fourthBlog.png',
 		categoryImage: 'Business',
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -493,7 +493,7 @@ const russionPosts = [
 		id: 15,
 		category: 'Technology',
 		header: 'How 5G Technology Will Change the World',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		categoryImage: 'Technology',
 		description:
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
@@ -529,7 +529,7 @@ const russionPosts = [
 		category: 'Economy',
 		categoryImage: 'Economy',
 		header: 'The Effects of Inflation on Consumer Spending',
-		image: '/images/thirdBlog.jpg',
+		image: '/images/thirdBlog.png',
 		tags: ['Marketing', 'Life'],
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
@@ -564,7 +564,7 @@ const russionPosts = [
 		category: 'Startup',
 		categoryImage: 'Startup',
 		header: 'The Importance of Networking for Startup Success',
-		image: '/images/fourthBlog.jpg',
+		image: '/images/fourthBlog.png',
 		description:
 			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
 		icon: '/images/avatar2.png',
@@ -599,7 +599,7 @@ const russionPosts = [
 		category: 'Business',
 		categoryImage: 'Business',
 		header: 'Balancing Work and Life: Tips for Entrepreneurs',
-		image: "/images/secondBlog.jpg",
+		image: "/images/secondBlog.png",
 		tags: ['Experience', 'Technology', 'Life'],
 		description:
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
@@ -634,7 +634,7 @@ const russionPosts = [
 		category: 'Technology',
 		categoryImage: 'Technology',
 		header: 'Cybersecurity Measures for Modern Enterprises',
-		image: '/images/thirdBlog.jpg',
+		image: '/images/thirdBlog.png',
 		description:
 			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
 		icon: '/images/avatar2.png',
@@ -669,7 +669,7 @@ const russionPosts = [
 		category: 'Economy',
 		categoryImage: 'Economy',
 		header: 'Future Predictions for the Global Economy',
-		image: '/images/firstBlog.jpg',
+		image: '/images/firstBlog.png',
 		description:
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
