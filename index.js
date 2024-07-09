@@ -7,7 +7,6 @@ const postsRussian = require('./postsRussian');
 const app = express();
 const PORT = 3000;
 
-// Configure CORS to allow requests from your frontend application
 const corsOptions = {
   origin: 'http://localhost:3000',
   optionsSuccessStatus: 200,
@@ -22,12 +21,15 @@ app.get('/posts', (req, res) => {
   const limit = parseInt(req.query.limit, 10) || 4;
   const start = parseInt(req.query.start, 10) || 0;
   const category = req.query.category || '';
+  const tags = req.query.tags ? req.query.tags.split(',') : [];
 
   const posts = lang.includes('ru') ? postsRussian : postsEnglish;
 
-  const filteredPosts = category
-    ? posts.filter(post => post.categoryImage === category)
-    : posts;
+  const filteredPosts = posts.filter((post) => {
+    const matchesCategory = category ? post.categoryImage === category : true;
+    const matchesTags = tags.length > 0 ? tags.every(tag => post.tags.includes(tag)) : true;
+    return matchesCategory && matchesTags;
+  });
 
   const totalCount = filteredPosts.length;
   const slicedPosts = filteredPosts.slice(start, start + limit);
