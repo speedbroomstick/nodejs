@@ -10,7 +10,8 @@ const russionPosts = [
 		categoryImage: 'Startup',
 		date: '27 Января 2022',
 		tags: ['Experience', 'Life', 'Screen'],
-		author: 'Андрю Джонс',
+		author: 'Флойд Майлз',
+		authorId: 1,
 		content: [
 			{
 				title: 'Введение',
@@ -45,7 +46,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '28 Января 2022',
 		tags: ['Business', 'Life'],
-		author: 'Сара Лии',
+		author: 'Флойд Майлз',
+		authorId: 1,
 		content: [
 			{
 				title: 'Введение',
@@ -80,7 +82,8 @@ const russionPosts = [
 		categoryImage: 'Technology',
 		tags: ['Technology', 'Experience', 'Life'],
 		date: '29 Января 2022',
-		author: 'Михаил Смитс',
+		author: 'Дженни Уилсон',
+		authorId: 3,
 		content: [
 			{
 				title: 'Введение',
@@ -115,7 +118,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '30 Января 2022',
 		tags: ['Marketing', 'Life'],
-		author: 'Эмили Дэвис',
+		author: 'Дженни Уилсон',
+		authorId: 3,
 		content: [
 			{
 				title: 'Введение',
@@ -150,7 +154,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '31 Января 2022',
 		tags: ['Life'],
-		author: 'давид Вилсон',
+		authorId: 4,
+		author: 'Лесли Александер',
 		content: [
 			{
 				title: 'Введение',
@@ -185,7 +190,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
-		author: 'София Маритз',
+		authorId: 4,
+		author: 'Лесли Александер',
 		content: [
 			{
 				title: 'Введение',
@@ -220,7 +226,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
-		author: 'София Маритз',
+		authorId: 6,
+		author: 'Элеанор Пена',
 		content: [
 			{
 				title: 'Введение',
@@ -255,7 +262,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
-		author: 'София Маритз',
+		authorId: 5,
+		author: 'Гай Хокинс',
 		content: [
 			{
 				title: 'Введение',
@@ -290,7 +298,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
-		author: 'София Маритз',
+		authorId: 5,
+		author: 'Гай Хокинс',
 		content: [
 			{
 				title: 'Введение',
@@ -325,7 +334,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '2 Февраля 2022',
 		tags: ['Technology', 'Screen'],
-		author: 'Джеймс Браун',
+		authorId: 6,
+		author: 'Элеанор Пена',
 		content: [
 			{
 				title: 'Введение',
@@ -360,7 +370,8 @@ const russionPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '3 Февраля 2022',
-		author: 'Оливиа Джонсон',
+		authorId: 7,
+		author: 'Роберт Фокс',
 		content: [
 			{
 				title: 'Введение',
@@ -395,7 +406,8 @@ const russionPosts = [
 		date: '4 Февраля 2022',
 		tags: ['Life'],
 		categoryImage: 'Startup',
-		author: 'Лиам Андерс',
+		authorId: 7,
+		author: 'Роберт Фокс',
 		content: [
 			{
 				title: 'Введение',
@@ -430,7 +442,8 @@ const russionPosts = [
 		date: '5 Февраля 2022',
 		tags: ['Business', 'Life'],
 		categoryImage: 'Business',
-		author: 'Эмма Томас',
+		authorId: 8,
+		author: 'Джейкоб Джонс',
 		content: [
 			{
 				title: 'Введение',
@@ -465,7 +478,8 @@ const russionPosts = [
 		categoryImage: 'Technology',
 		date: '6 Февраля 2022',
 		tags: ['Technology', 'Experience', 'Life'],
-		author: 'Массон Вайт',
+		authorId: 8,
+		author: 'Джейкоб Джонс',
 		content: [
 			{
 				title: 'Введение',
@@ -500,7 +514,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '7 Февраля 2022',
 		tags: ['Marketing', 'Experience', 'Life'],
-		author: 'Изабела Карис',
+		authorId: 8,
+		author: 'Джейкоб Джонс',
 		content: [
 			{
 				title: 'Введение',
@@ -535,7 +550,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '8 Февраля 2022',
 		tags: ['Experience', 'Life'],
-		author: 'Этлан Кларк',
+		authorId: 4,
+		author: 'Лесли Александер',
 		content: [
 			{
 				title: 'Введение',
@@ -570,7 +586,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '9 Февраля 2022',
 		tags: ['Experience', 'Business'],
-		author: 'Ава Лювис',
+		authorId: 4,
+		author: 'Лесли Александер',
 		content: [
 			{
 				title: 'Введение',
@@ -605,7 +622,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '10 Февраля 2022',
 		tags: ['Technology', 'Screen'],
-		author: 'Лукас Робинзон',
+		author: 'Флойд Майлз',
+		authorId: 1,
 		content: [
 			{
 				title: 'Введение',
@@ -640,7 +658,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '11 Февраля 2022',
 		tags: ['Marketing', 'Life'],
-		author: 'Миа Валкер',
+		author: 'Флойд Майлз',
+		authorId: 1,
 		content: [
 			{
 				title: 'Введение',
@@ -675,7 +694,8 @@ const russionPosts = [
 		categoryImage: 'Startup',
 		date: '12 Февраля 2022',
 		tags: ['Experience', 'Life'],
-		author: 'Александр Кинг',
+		author: 'Флойд Майлз',
+		authorId: 1,
 		content: [
 			{
 				title: 'Введение',
@@ -710,7 +730,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Technology', 'Life'],
 		date: '13 Февраля 2022',
-		author: 'Амилиа Скотт',
+		author: 'Дженни Уилсон',
+		authorId: 3,
 		content: [
 			{
 				title: 'Введение',
@@ -745,7 +766,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '14 Февраля 2022',
 		tags: ['Experience', 'Technology', 'Life'],
-		author: 'Генри Холл',
+		author: 'Дженни Уилсон',
+		authorId: 3,
 		content: [
 			{
 				title: 'Введение',
@@ -780,7 +802,8 @@ const russionPosts = [
 		icon: '/images/avatar2.png',
 		date: '15 Февраля 2022',
 		tags: ['Experience', 'Marketing'],
-		author: 'Шарлота Адамс',
+		author: 'Дженни Уилсон',
+		authorId: 3,
 		content: [
 			{
 				title: 'Введение',

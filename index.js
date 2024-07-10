@@ -31,14 +31,16 @@ app.get('/authors', (req, res) => {
 
 app.get('/authors/:id', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
-  const id = req.params.id;
-  console.log(id)
-  const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
+  const id = parseInt(req.params.id, 10);
 
-  const author = authors.find(author => author.id === parseInt(id));
+  const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
+  const posts = lang.includes('ru') ? postsRussian : postsEnglish;
+
+  const author = authors.find(author => author.id === id);
 
   if (author) {
-    res.status(200).json({ author });
+    const authorPosts = posts.filter(post => post.authorId === id);
+    res.status(200).json({ author, posts: authorPosts });
   } else {
     res.status(404).send('Author Not Found');
   }

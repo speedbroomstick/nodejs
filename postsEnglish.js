@@ -9,7 +9,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
 		date: '27th January 2022',
-		author: 'Andrew Jonson',
+		author: 'Floyd Miles',
+		authorId: 1,
 		tags: ['Experience', 'Life', 'Screen'],
 		content: [
 			{
@@ -45,7 +46,8 @@ const englishPosts = [
 		categoryImage: 'Business',
 		date: '28th January 2022',
 		tags: ['Business', 'Life'],
-		author: 'Sarah Lee',
+		author: 'Floyd Miles',
+		authorId: 1,
 		content: [
 			{
 				title: 'Introduction',
@@ -80,7 +82,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Technology', 'Experience', 'Life'],
 		date: '29th January 2022',
-		author: 'Michael Smith',
+		author: 'Jenny Wilson',
+		authorId: 3,
 		content: [
 			{
 				title: 'Introduction',
@@ -115,7 +118,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		date: '30th January 2022',
 		tags: ['Marketing', 'Life'],
-		author: 'Emily Davis',
+		author: 'Jenny Wilson',
+		authorId: 3,
 		content: [
 			{
 				title: 'Introduction',
@@ -150,7 +154,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Life'],
 		date: '31st January 2022',
-		author: 'David Wilson',
+		authorId: 4,
+		author: 'Leslie Alexander',
 		content: [
 			{
 				title: 'Introduction',
@@ -185,7 +190,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Business', 'Screen'],
 		date: '1st February 2022',
-		author: 'Sophia Martinez',
+		authorId: 4,
+		author: 'Leslie Alexander',
 		content: [
 			{
 				title: 'Introduction',
@@ -220,7 +226,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Business', 'Screen'],
 		date: '1st February 2022',
-		author: 'Sophia Martinez',
+		authorId: 5,
+		author: 'Guy Hawkins',
 		content: [
 			{
 				title: 'Introduction',
@@ -255,7 +262,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Business', 'Screen'],
 		date: '1st February 2022',
-		author: 'Sophia Martinez',
+		authorId: 5,
+		author: 'Guy Hawkins',
 		content: [
 			{
 				title: 'Introduction',
@@ -290,7 +298,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Business', 'Screen'],
 		date: '1st February 2022',
-		author: 'Sophia Martinez',
+		authorId: 6,
+		author: 'Eleanor Pena',
 		content: [
 			{
 				title: 'Introduction',
@@ -325,7 +334,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Technology', 'Screen'],
 		date: '2nd February 2022',
-		author: 'James Brown',
+		authorId: 6,
+		author: 'Eleanor Pena',
 		content: [
 			{
 				title: 'Introduction',
@@ -360,7 +370,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Marketing'],
 		date: '3rd February 2022',
-		author: 'Olivia Johnson',
+		authorId: 7,
+		author: 'Robert Fox',
 		content: [
 			{
 				title: 'Introduction',
@@ -395,7 +406,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Life'],
 		date: '4th February 2022',
-		author: 'Liam Anderson',
+		authorId: 7,
+		author: 'Robert Fox',
 		content: [
 			{
 				title: 'Introduction',
@@ -430,7 +442,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Business', 'Life'],
 		date: '5th February 2022',
-		author: 'Emma Thomas',
+		authorId: 8,
+		author: 'Jacob Jones',
 		content: [
 			{
 				title: 'Introduction',
@@ -465,7 +478,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		date: '6th February 2022',
 		tags: ['Technology', 'Experience', 'Life'],
-		author: 'Mason White',
+		authorId: 8,
+		author: 'Jacob Jones',
 		content: [
 			{
 				title: 'Introduction',
@@ -500,7 +514,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		date: '7th February 2022',
 		tags: ['Marketing', 'Experience', 'Life'],
-		author: 'Isabella Harris',
+		authorId: 8,
+		author: 'Jacob Jones',
 		content: [
 			{
 				title: 'Introduction',
@@ -535,7 +550,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		date: '8th February 2022',
 		tags: ['Experience', 'Life'],
-		author: 'Ethan Clark',
+		authorId: 4,
+		author: 'Leslie Alexander',
 		content: [
 			{
 				title: 'Introduction',
@@ -570,7 +586,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Business'],
 		date: '9th February 2022',
-		author: 'Ava Lewis',
+		authorId: 4,
+		author: 'Leslie Alexander',
 		content: [
 			{
 				title: 'Introduction',
@@ -605,7 +622,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Technology', 'Screen'],
 		date: '10th February 2022',
-		author: 'Lucas Robinson',
+		author: 'Floyd Miles',
+		authorId: 1,
 		content: [
 			{
 				title: 'Introduction',
@@ -640,7 +658,8 @@ const englishPosts = [
 			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
 		icon: '/images/avatar2.png',
 		date: '11th February 2022',
-		author: 'Mia Walker',
+		author: 'Floyd Miles',
+		authorId: 1,
 		content: [
 			{
 				title: 'Introduction',
@@ -675,7 +694,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Life'],
 		date: '12th February 2022',
-		author: 'Alexander King',
+		author: 'Floyd Miles',
+		authorId: 1,
 		content: [
 			{
 				title: 'Introduction',
@@ -710,7 +730,8 @@ const englishPosts = [
 			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
 		icon: '/images/avatar2.png',
 		date: '13th February 2022',
-		author: 'Amelia Scott',
+		author: 'Jenny Wilson',
+		authorId: 3,
 		content: [
 			{
 				title: 'Introduction',
@@ -745,7 +766,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Technology', 'Life'],
 		date: '14th February 2022',
-		author: 'Henry Hall',
+		author: 'Jenny Wilson',
+		authorId: 3,
 		content: [
 			{
 				title: 'Introduction',
@@ -780,7 +802,8 @@ const englishPosts = [
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Marketing'],
 		date: '15th February 2022',
-		author: 'Charlotte Adams',
+		author: 'Jenny Wilson',
+		authorId: 3,
 		content: [
 			{
 				title: 'Introduction',
