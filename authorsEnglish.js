@@ -18,6 +18,26 @@ const authorsEnglish = [
           name: "Leslie Alexander",
           description: "Content Writer @Company",
           icon: "/avatar/avatar4.png"
+        },
+        {
+          name: "Guy Hawkins",
+          description: "Content Writer @Company",
+          icon: "/avatar/avatar5.png"
+        },
+        {
+          name: "Eleanor Pena",
+          description: "Content Writer @Company",
+          icon: "/avatar/avatar6.png"
+        },
+        {
+          name: "Robert Fox",
+          description: "Content Writer @Company",
+          icon: "/avatar/avatar7.png"
+        },
+        {
+          name: "Jacob Jones",
+          description: "Content Writer @Company",
+          icon: "/avatar/avatar8.png"
         }
 ];
 module.exports = authorsEnglish;

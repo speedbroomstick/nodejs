@@ -20,8 +20,13 @@ app.use('/avatar', express.static(path.join(__dirname, 'public/avatar')));
 
 app.get('/authors', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
+  const limit = parseInt(req.query.limit, 10) || 4;
+
   const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
-  res.status(200).json({ authors });
+
+  const slicedAuthors = authors.slice(0, start + limit);
+
+  res.status(200).json({ authors: slicedAuthors });
 });
 
 app.get('/posts', (req, res) => {
