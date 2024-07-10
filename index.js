@@ -29,6 +29,21 @@ app.get('/authors', (req, res) => {
   res.status(200).json({ authors: slicedAuthors });
 });
 
+app.get('/authors/:id', (req, res) => {
+  const lang = req.headers['accept-language'] || 'en';
+  const id = req.params.id;
+
+  const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
+
+  const author = authors.find(author => author.id === id);
+
+  if (author) {
+    res.status(200).json({ author });
+  } else {
+    res.status(404).send('Author Not Found');
+  }
+});
+
 app.get('/posts', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
   const limit = parseInt(req.query.limit, 10) || 4;
@@ -48,6 +63,21 @@ app.get('/posts', (req, res) => {
   const slicedPosts = filteredPosts.slice(start, start + limit);
 
   res.status(200).json({ posts: slicedPosts, totalCount });
+});
+
+app.get('/posts/:id', (req, res) => {
+  const lang = req.headers['accept-language'] || 'en';
+  const id = req.params.id;
+
+  const posts = lang.includes('ru') ? postsRussian : postsEnglish;
+
+  const post = posts.find(post => post.id === id);
+
+  if (post) {
+    res.status(200).json({ post });
+  } else {
+    res.status(404).send('Post Not Found');
+  }
 });
 
 app.use((req, res) => {
