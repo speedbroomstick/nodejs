@@ -32,10 +32,10 @@ app.get('/authors', (req, res) => {
 app.get('/authors/:id', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
   const id = req.params.id;
-
+  console.log(id)
   const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
 
-  const author = authors.find(author => author.id === id);
+  const author = authors.find(author => author.id === parseInt(id));
 
   if (author) {
     res.status(200).json({ author });
@@ -71,7 +71,7 @@ app.get('/posts/:id', (req, res) => {
 
   const posts = lang.includes('ru') ? postsRussian : postsEnglish;
 
-  const post = posts.find(post => post.id === id);
+  const post = posts.find(post => post.id === parseInt(id));
 
   if (post) {
     res.status(200).json({ post });
