@@ -1,5 +1,4 @@
 const authorsEnglish = [
-    [
         {
           name: "Floyd Miles",
           description: "Content Writer @Company",
@@ -20,6 +19,5 @@ const authorsEnglish = [
           description: "Content Writer @Company",
           icon: "/avatar/avatar4.png"
         }
-      ]
 ];
 module.exports = authorsEnglish;
