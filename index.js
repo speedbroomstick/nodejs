@@ -3,7 +3,8 @@ const path = require('path');
 const cors = require('cors');
 const postsEnglish = require('./postsEnglish');
 const postsRussian = require('./postsRussian');
-
+const authorsEnglish = require('./authorsEnglish');
+const authorsRussian = require('./authorsRussian');
 const app = express();
 const PORT = 3000;
 
@@ -15,6 +16,12 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
+
+app.get('/authors', (req, res) => {
+  const lang = req.headers['accept-language'] || 'en';
+  const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
+  res.status(200).json({ authors });
+});
 
 app.get('/posts', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
