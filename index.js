@@ -16,6 +16,7 @@ const corsOptions = {
 app.use(cors(corsOptions));
 
 app.use('/images', express.static(path.join(__dirname, 'public/images')));
+app.use('/avatar', express.static(path.join(__dirname, 'public/avatar')));
 
 app.get('/authors', (req, res) => {
   const lang = req.headers['accept-language'] || 'en';
