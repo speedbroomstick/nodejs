@@ -6,7 +6,7 @@ const postsRussian = require('./postsRussian');
 const authorsEnglish = require('./authorsEnglish');
 const authorsRussian = require('./authorsRussian');
 const app = express();
-const PORT = 3000;
+const PORT = 3001;
 
 const corsOptions = {
   origin: 'http://localhost:3000',
@@ -24,7 +24,7 @@ app.get('/authors', (req, res) => {
 
   const authors = lang.includes('ru') ? authorsRussian : authorsEnglish;
 
-  const slicedAuthors = authors.slice(0, start + limit);
+  const slicedAuthors = authors.slice(0, limit);
 
   res.status(200).json({ authors: slicedAuthors });
 });
