@@ -4,7 +4,7 @@ const russionPosts = [
 		category: 'Стартап',
 		header: 'Советы по дизайну для дизайнеров, охватывающие все, что вам нужно',
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		image: '/images/firstBlog.png',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
@@ -42,7 +42,7 @@ const russionPosts = [
 		image: "/images/secondBlog.png",
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		date: '28 Января 2022',
 		tags: ['Business', 'Life'],
@@ -77,7 +77,7 @@ const russionPosts = [
 		header: 'Будущее искусственного интеллекта в повседневной жизни',
 		image: '/images/thirdBlog.png',
 		description:
-			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Technology',
 		tags: ['Technology', 'Experience', 'Life'],
@@ -114,7 +114,7 @@ const russionPosts = [
 		image: '/images/fourthBlog.png',
 		categoryImage: 'Economy',
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '30 Января 2022',
 		tags: ['Marketing', 'Life'],
@@ -150,7 +150,7 @@ const russionPosts = [
 		image: "/images/secondBlog.png",
 		categoryImage: 'Startup',
 		description:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		date: '31 Января 2022',
 		tags: ['Life'],
@@ -186,7 +186,7 @@ const russionPosts = [
 		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
@@ -222,7 +222,7 @@ const russionPosts = [
 		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
@@ -258,7 +258,7 @@ const russionPosts = [
 		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы..',
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
@@ -294,7 +294,7 @@ const russionPosts = [
 		image: '/images/thirdBlog.png',
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '1 Февраля 2022',
 		tags: ['Business', 'Screen'],
@@ -330,7 +330,7 @@ const russionPosts = [
 		image: '/images/firstBlog.png',
 		categoryImage: 'Technology',
 		description:
-			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '2 Февраля 2022',
 		tags: ['Technology', 'Screen'],
@@ -367,7 +367,7 @@ const russionPosts = [
 		categoryImage: 'Economy',
 		tags: ['Marketing'],
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '3 Февраля 2022',
 		authorId: 7,
@@ -401,7 +401,7 @@ const russionPosts = [
 		header: 'Инновационные идеи для разрушения традиционных рынков',
 		image: '/images/fourthBlog.png',
 		description:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '4 Февраля 2022',
 		tags: ['Life'],
@@ -437,7 +437,7 @@ const russionPosts = [
 		header: 'Лидерские навыки, которые должен развивать каждый предприниматель',
 		image: '/images/thirdBlog.png',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '5 Февраля 2022',
 		tags: ['Business', 'Life'],
@@ -473,7 +473,7 @@ const russionPosts = [
 		header: 'Достижения в машинном обучении и науке о данных',
 		image: "/images/secondBlog.png",
 		description:
-			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Technology',
 		date: '6 Февраля 2022',
@@ -510,7 +510,7 @@ const russionPosts = [
 		image: '/images/firstBlog.png',
 		categoryImage: 'Economy',
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '7 Февраля 2022',
 		tags: ['Marketing', 'Experience', 'Life'],
@@ -546,7 +546,7 @@ const russionPosts = [
 		header: 'Как обеспечить финансирование для вашего стартапа',
 		image: '/images/thirdBlog.png',
 		description:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '8 Февраля 2022',
 		tags: ['Experience', 'Life'],
@@ -582,7 +582,7 @@ const russionPosts = [
 		image: '/images/fourthBlog.png',
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '9 Февраля 2022',
 		tags: ['Experience', 'Business'],
@@ -618,7 +618,7 @@ const russionPosts = [
 		image: "/images/secondBlog.png",
 		categoryImage: 'Technology',
 		description:
-			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '10 Февраля 2022',
 		tags: ['Technology', 'Screen'],
@@ -654,7 +654,7 @@ const russionPosts = [
 		image: '/images/thirdBlog.png',
 		categoryImage: 'Economy',
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '11 Февраля 2022',
 		tags: ['Marketing', 'Life'],
@@ -689,7 +689,7 @@ const russionPosts = [
 		header: 'Важность нетворкинга для успеха стартапа',
 		image: '/images/fourthBlog.png',
 		description:
-			'Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		categoryImage: 'Startup',
 		date: '12 Февраля 2022',
@@ -726,7 +726,7 @@ const russionPosts = [
 		image: "/images/secondBlog.png",
 		categoryImage: 'Business',
 		description:
-			'Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		tags: ['Experience', 'Technology', 'Life'],
 		date: '13 Февраля 2022',
@@ -762,7 +762,7 @@ const russionPosts = [
 		header: 'Меры кибербезопасности для современных предприятий',
 		image: '/images/thirdBlog.png',
 		description:
-			'Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '14 Февраля 2022',
 		tags: ['Experience', 'Technology', 'Life'],
@@ -798,7 +798,7 @@ const russionPosts = [
 		header: 'Прогнозы на будущее мировой экономики',
 		image: '/images/firstBlog.png',
 		description:
-			'Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.',
+			'В этой статье представлены ключевые советы по дизайну, которые помогут улучшить ваши навыки и создать эффективные и визуально привлекательные работы.',
 		icon: '/images/avatar2.png',
 		date: '15 Февраля 2022',
 		tags: ['Experience', 'Marketing'],
